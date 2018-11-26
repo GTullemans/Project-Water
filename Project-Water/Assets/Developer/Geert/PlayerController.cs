@@ -5,9 +5,9 @@ using XboxCtrlrInput;
 
 public class PlayerController : MonoBehaviour {
     [SerializeField] private float _Speed;
-
+    
     private Vector3 _InputDir;
-
+    [SerializeField] private XboxController Player;
 
     // Use this for initialization
     void Start () {
@@ -16,8 +16,9 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        _InputDir.x = XCI.GetAxisRaw(XboxAxis.LeftStickX);
-        _InputDir.z = XCI.GetAxisRaw(XboxAxis.LeftStickY);
+        Player = PlayerNum;
+        _InputDir.x = XCI.GetAxisRaw(XboxAxis.LeftStickX,PlayerNum);
+        _InputDir.z = XCI.GetAxisRaw(XboxAxis.LeftStickY, PlayerNum);
 
 
         _InputDir=_InputDir.normalized;
@@ -30,4 +31,6 @@ public class PlayerController : MonoBehaviour {
         transform.Translate(-_InputDir.z, 0, _InputDir.x,Space.World);
         
     }
+
+    public XboxController PlayerNum { get; set; }
 }
