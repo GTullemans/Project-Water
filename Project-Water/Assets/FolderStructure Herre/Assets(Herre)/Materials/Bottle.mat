@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Fish1
+  m_Name: Bottle
   m_Shader: {fileID: 4800000, guid: 645ddb695a089034b803c929e740378f, type: 3}
   m_ShaderKeywords: COLORED_OUTLINE _NORMALMAP
   m_LightmapFlags: 4
@@ -39,11 +39,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 7a7edf56d559ee84d999ad64db5b7c00, type: 3}
+        m_Texture: {fileID: 2800000, guid: 540aa4092e279f0479c672d55cae8990, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 425bc60fcb6fbdd4fabdab3884a3e6f9, type: 3}
+        m_Texture: {fileID: 2800000, guid: b70f52906f2a50148902b7b79024f35f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -78,7 +78,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - _outline_tint: 0.5
-    - _outline_width: 1
+    - _outline_width: 3
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 1}
