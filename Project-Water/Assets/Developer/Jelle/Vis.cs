@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KutVis : MonoBehaviour
+public class Vis : MonoBehaviour
 {
     private float timer;
 
@@ -13,13 +13,8 @@ public class KutVis : MonoBehaviour
     private float percentage;
 
     private Vector3 pos;
-
-    [SerializeField]
-    private Transform startCube;
     [SerializeField]
     private Transform endPos;
-    [SerializeField]
-    private Transform diveObj;
 
     [SerializeField]
     private float totalLerpTime;
@@ -31,7 +26,6 @@ public class KutVis : MonoBehaviour
 
     void Update()
     {
-        diveObj.position = new Vector3(transform.position.x, diveObj.transform.position.y, transform.position.z);
         currentLerpTime += Time.deltaTime;
 
         if (currentLerpTime > totalLerpTime)
@@ -56,7 +50,7 @@ public class KutVis : MonoBehaviour
             }
             else
             {
-                endPos.position = new Vector3(Random.Range(-10.6f, 10.6f), 0.5f, Random.Range(-10.6f, 10.6f));
+                endPos.position = new Vector3(Random.Range(-15f, 15f), 0.5f, Random.Range(-15f, 15f));
                 currentLerpTime = 0f;
             }
         }
@@ -67,8 +61,6 @@ public class KutVis : MonoBehaviour
     }
     private void MoveFish()
     {
-        startCube.position = transform.position;
-
         transform.position = Vector3.Lerp(transform.position, endPos.position, percentage);
     }
 }
