@@ -50,12 +50,14 @@ public class PickUpScore : MonoBehaviour
                     //netObj.transform.parent = gameObject.transform;
                     //other.transform.parent = netObj.transform;
                     //other.transform.SetParent(netObj.transform, true);
+                    Destroy(other.gameObject);
                     AddScore(0);
                 }
                 break;
             case Player.Two:
                 if (other.gameObject.tag == "Trash")
                 {
+                    Destroy(other.gameObject);
                     other.gameObject.SetActive(false);
                     AddScore(1);
                 }
@@ -63,6 +65,7 @@ public class PickUpScore : MonoBehaviour
             case Player.Three:
                 if (other.gameObject.tag == "Trash")
                 {
+                    Destroy(other.gameObject);
                     other.gameObject.SetActive(false);
                     AddScore(2);
                 }
@@ -70,6 +73,7 @@ public class PickUpScore : MonoBehaviour
             case Player.Four:
                 if (other.gameObject.tag == "Trash")
                 {
+                    Destroy(other.gameObject);
                     other.gameObject.SetActive(false);
                     AddScore(3);
                 }
