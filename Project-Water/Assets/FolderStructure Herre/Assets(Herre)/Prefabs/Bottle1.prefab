@@ -23,7 +23,8 @@ GameObject:
   - component: {fileID: 23800498043054722}
   - component: {fileID: 54203966432929468}
   - component: {fileID: 65559182727009688}
-  m_Layer: 0
+  - component: {fileID: 114750902194395728}
+  m_Layer: 10
   m_Name: Bottle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,8 +94,8 @@ Rigidbody:
   m_GameObject: {fileID: 1321009120426862}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 2
+  m_AngularDrag: 0.5
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -112,3 +113,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.19166353, y: 0.4367494, z: 0.16598547}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114750902194395728
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1321009120426862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f03f922da6809f4ebd63837c887c42b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Amplitude: 0.2
+  _Frequency: 1.5

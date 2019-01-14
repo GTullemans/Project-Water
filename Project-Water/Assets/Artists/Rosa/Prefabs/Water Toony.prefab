@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23168718814056134}
   - component: {fileID: 114170095941422802}
   - component: {fileID: 65512040308270664}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Water Toony
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1294662894708158}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -4.3, y: 0, z: -9.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -58,8 +58,8 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: cca17e5daa740ca44a661697f66ca996, type: 2}
-  - {fileID: 2100000, guid: fae9e370c728f4d478ef8d9acfbc1569, type: 2}
+  - {fileID: 2100000, guid: bfe9c2426ac3b8e4a9937a12c09a1c76, type: 2}
+  - {fileID: 2100000, guid: dcc5d51aec50daa489fbe26bb6c0b04d, type: 2}
   - {fileID: 2100000, guid: 70dbe3a142778574db0841f79a2d2aaf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScrollX: 0.04
   ScrollY: 0.04
-  Normal: {fileID: 2100000, guid: fae9e370c728f4d478ef8d9acfbc1569, type: 2}
+  Normal: {fileID: 2100000, guid: dcc5d51aec50daa489fbe26bb6c0b04d, type: 2}
   Foam: {fileID: 2100000, guid: 70dbe3a142778574db0841f79a2d2aaf, type: 2}
   NormalX: 0.04
   NormalY: 0.06

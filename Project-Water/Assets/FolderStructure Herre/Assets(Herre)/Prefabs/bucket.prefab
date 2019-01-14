@@ -23,7 +23,8 @@ GameObject:
   - component: {fileID: 23688355062953286}
   - component: {fileID: 54440009126420756}
   - component: {fileID: 65088305732506548}
-  m_Layer: 0
+  - component: {fileID: 114139720840359066}
+  m_Layer: 10
   m_Name: bucket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +43,7 @@ GameObject:
   - component: {fileID: 23827390474471576}
   - component: {fileID: 54151142376114830}
   - component: {fileID: 65630954150374182}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HandleModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,7 +62,7 @@ GameObject:
   - component: {fileID: 23878258274957898}
   - component: {fileID: 65617159869795250}
   - component: {fileID: 54666972209915618}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Handlepivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,8 +259,8 @@ Rigidbody:
   m_GameObject: {fileID: 1588458882730260}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 2
+  m_AngularDrag: 0.5
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -316,3 +317,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.39100468, y: 0.111823305, z: 0.044900782}
   m_Center: {x: 0.0009784924, y: 0.055221636, z: -0.000001777214}
+--- !u!114 &114139720840359066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1588458882730260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f03f922da6809f4ebd63837c887c42b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Amplitude: 0.2
+  _Frequency: 1.5
