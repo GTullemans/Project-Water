@@ -46,7 +46,10 @@ public class PickUpScore : MonoBehaviour
             case Player.One:
                 if (other.gameObject.tag == "Trash")
                 {
-                    other.gameObject.SetActive(false);
+                    //GameObject netObj = new GameObject();
+                    //netObj.transform.parent = gameObject.transform;
+                    //other.transform.parent = netObj.transform;
+                    //other.transform.SetParent(netObj.transform, true);
                     AddScore(0);
                 }
                 break;
