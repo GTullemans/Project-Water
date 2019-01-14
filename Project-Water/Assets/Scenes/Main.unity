@@ -157,20 +157,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 114312571242470672, guid: 508ef69cffa5ba24f872595b7ee41588,
+    - target: {fileID: 114542378125419686, guid: 508ef69cffa5ba24f872595b7ee41588,
         type: 2}
-      propertyPath: _RotateSpeed
-      value: 0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 114312571242470672, guid: 508ef69cffa5ba24f872595b7ee41588,
+      propertyPath: object2
+      value: 
+      objectReference: {fileID: 417662270}
+    - target: {fileID: 23221073889122952, guid: 508ef69cffa5ba24f872595b7ee41588,
         type: 2}
-      propertyPath: _Acceleratie
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114312571242470672, guid: 508ef69cffa5ba24f872595b7ee41588,
-        type: 2}
-      propertyPath: _Decceleratie
-      value: 0.3
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 508ef69cffa5ba24f872595b7ee41588, type: 2}
@@ -1358,19 +1353,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1628700163217130, guid: 508ef69cffa5ba24f872595b7ee41588,
     type: 2}
   m_PrefabInternal: {fileID: 17475030}
---- !u!114 &346500138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 346500137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f03f922da6809f4ebd63837c887c42b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _Amplitude: 0.1
-  _Frequency: 2
 --- !u!4 &354919606 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4464373874242232, guid: ad4f277beb9ecba418de8c52239cde79,
@@ -6654,6 +6636,14 @@ Prefab:
         type: 2}
       propertyPath: _Speed
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679627969179578, guid: 76660d555f47ff3498129beee25af822, type: 2}
+      propertyPath: m_Name
+      value: Boot 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082371321878224, guid: 76660d555f47ff3498129beee25af822, type: 2}
+      propertyPath: m_Name
+      value: Boot 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76660d555f47ff3498129beee25af822, type: 2}
