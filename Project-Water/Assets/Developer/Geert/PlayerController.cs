@@ -29,13 +29,11 @@ public class PlayerController : MonoBehaviour {
 
 
         //transform.LookAt(transform.position + -_InputDir);
-        //if(_InputDir == Vector3.zero && _Dir != Vector3.zero)
-        //{
-        //    Debug.Log("jeej");
-        //}
         if(_InputDir != Vector3.zero)
         {
-            _Dir = _InputDir;
+            float x = _InputDir.x;
+            float y = _InputDir.y;
+            float z = _InputDir.z;
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(-_InputDir), _RotateSpeed);
 
             if (_CurrentSpeed < _Speed)
@@ -57,8 +55,8 @@ public class PlayerController : MonoBehaviour {
         }
         
          
-        
-        transform.Translate(_Dir.z * _CurrentSpeed * Time.deltaTime, 0, -_Dir.x * _CurrentSpeed * Time.deltaTime, Space.World);
+        _Dir *= _CurrentSpeed * Time.deltaTime; 
+        transform.Translate(_Dir.z, 0, -_Dir.x,Space.World);
         //Debug.Log(_CurrentSpeed);
         
         
