@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33617266693157104}
   - component: {fileID: 23651708846276676}
   - component: {fileID: 65128485270553212}
+  - component: {fileID: 114983133872040914}
   m_Layer: 0
   m_Name: Model
   m_TagString: Untagged
@@ -55,6 +56,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4249252658178360}
   - component: {fileID: 65325836474301698}
+  - component: {fileID: 114906688195460524}
+  - component: {fileID: 114914924658919052}
   m_Layer: 0
   m_Name: Boat6
   m_TagString: Untagged
@@ -392,3 +395,45 @@ MonoBehaviour:
   speed: 5
   distance: 0
   range: 15
+--- !u!114 &114906688195460524
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1286055814919786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f03f922da6809f4ebd63837c887c42b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Amplitude: 0.1
+  _Frequency: 2
+--- !u!114 &114914924658919052
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1286055814919786}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3745e89ce8a1e48469d6c94943aad1ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Speed: 5
+  _RotateSpeed: 0.15
+  _Acceleratie: 0.1
+  _Decceleratie: 0.2
+  Player: 0
+--- !u!114 &114983133872040914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1100155726466608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 505c309e97621cf4fad617e7da644edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Parent: {fileID: 1286055814919786}
+  _RotateSpeed: 0.2

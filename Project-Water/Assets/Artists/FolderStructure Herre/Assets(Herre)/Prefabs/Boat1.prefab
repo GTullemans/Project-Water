@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 4075952619126528}
   - component: {fileID: 65631952339646296}
   - component: {fileID: 114945353106155808}
+  - component: {fileID: 114839096564535472}
   m_Layer: 0
   m_Name: Boat1
   m_TagString: Untagged
@@ -133,8 +134,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1900679790197942}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.330268, y: 0, z: -8.61752}
+  m_LocalRotation: {x: -0, y: 0.33115563, z: -0, w: 0.94357616}
+  m_LocalPosition: {x: -2.04, y: 0.73, z: -11.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4025031460751598}
@@ -388,7 +389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boot: {fileID: 1900679790197942}
   object1: {fileID: 1638329313396820}
-  object2: {fileID: 0}
+  object2: {fileID: 1900679790197942}
   Harpoon: {fileID: 1638329313396820}
   pivot: {fileID: 1825791972352212}
   speed: 5
@@ -407,19 +408,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Parent: {fileID: 1900679790197942}
   _RotateSpeed: 0.2
+--- !u!114 &114839096564535472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1900679790197942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f03f922da6809f4ebd63837c887c42b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Amplitude: 0.1
+  _Frequency: 2
 --- !u!114 &114945353106155808
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1900679790197942}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3745e89ce8a1e48469d6c94943aad1ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _Speed: 5
-  _RotateSpeed: 0
-  _Acceleratie: 0
-  _Decceleratie: 0
+  _RotateSpeed: 0.15
+  _Acceleratie: 0.1
+  _Decceleratie: 0.2
   Player: 0

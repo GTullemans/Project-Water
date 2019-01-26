@@ -2376,40 +2376,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8f832ff048fab7448938ee136097f06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1247991883 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1286055814919786, guid: f37fa80319d9fe343b6e4a0e09b90f0a,
-    type: 2}
-  m_PrefabInternal: {fileID: 1183831268}
---- !u!114 &1247991885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1247991883}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f03f922da6809f4ebd63837c887c42b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _Amplitude: 0.1
-  _Frequency: 2
---- !u!114 &1247991886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1247991883}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3745e89ce8a1e48469d6c94943aad1ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _Speed: 5
-  _RotateSpeed: 0.15
-  _Acceleratie: 0.1
-  _Decceleratie: 0.2
-  Player: 0
 --- !u!1 &1282465057
 GameObject:
   m_ObjectHideFlags: 0
@@ -3173,11 +3139,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 114038093987201790, guid: abb5339f8a7578a47a744b5bfd40928d,
-        type: 2}
-      propertyPath: object2
-      value: 
-      objectReference: {fileID: 866444144}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abb5339f8a7578a47a744b5bfd40928d, type: 2}
   m_IsPrefabAsset: 0
@@ -3966,24 +3927,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.767509, y: 1, z: 5.870654}
   m_Center: {x: 0.092039466, y: 0, z: 0.047966957}
---- !u!1 &1949715923 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1100155726466608, guid: f37fa80319d9fe343b6e4a0e09b90f0a,
-    type: 2}
-  m_PrefabInternal: {fileID: 1183831268}
---- !u!114 &1949715928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1949715923}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 505c309e97621cf4fad617e7da644edf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _Parent: {fileID: 1247991883}
-  _RotateSpeed: 0.2
 --- !u!1 &1957115864 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1294662894708158, guid: 7005b4ec2707abe4992d66394f14f719,

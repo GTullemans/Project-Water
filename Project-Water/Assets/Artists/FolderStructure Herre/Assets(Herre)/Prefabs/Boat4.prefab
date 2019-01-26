@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 4541590492424644}
   - component: {fileID: 65784882959558774}
   - component: {fileID: 114280397808455944}
+  - component: {fileID: 114162670905469150}
   m_Layer: 0
   m_Name: Boat4
   m_TagString: Untagged
@@ -160,8 +161,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1829066876951978}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.2, y: 0, z: -13.26}
+  m_LocalRotation: {x: -0, y: 0.33115563, z: -0, w: 0.94357616}
+  m_LocalPosition: {x: 4.42, y: 0.73, z: -3.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4656570551892424}
@@ -388,6 +389,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Parent: {fileID: 1829066876951978}
   _RotateSpeed: 0.2
+--- !u!114 &114162670905469150
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1829066876951978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f03f922da6809f4ebd63837c887c42b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Amplitude: 0.1
+  _Frequency: 2
 --- !u!114 &114280397808455944
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -400,9 +414,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Speed: 5
-  _RotateSpeed: 0
-  _Acceleratie: 0
-  _Decceleratie: 0
+  _RotateSpeed: 0.15
+  _Acceleratie: 0.1
+  _Decceleratie: 0.2
   Player: 0
 --- !u!114 &114692189885586392
 MonoBehaviour:
