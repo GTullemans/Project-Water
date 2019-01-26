@@ -26,6 +26,7 @@ public class Vis : MonoBehaviour
 
     void Update()
     {
+        transform.LookAt(endPos);
         currentLerpTime += Time.deltaTime;
 
         if (currentLerpTime > totalLerpTime)
