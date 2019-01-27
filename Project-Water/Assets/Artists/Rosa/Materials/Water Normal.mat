@@ -42,15 +42,7 @@ Material:
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
-<<<<<<< HEAD
-<<<<<<< HEAD
-        m_Offset: {x: 0.24838379, y: 0.37257567}
-=======
-        m_Offset: {x: 0.7011662, y: 1.0517493}
->>>>>>> master
-=======
-        m_Offset: {x: 16.050016, y: 24.075026}
->>>>>>> parent of 9d5e9da... Merge branch 'Geert'
+        m_Offset: {x: 0.9337826, y: 1.4006739}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
