@@ -51,7 +51,7 @@ public class Vis : MonoBehaviour
             }
             else
             {
-                endPos.position = new Vector3(Random.Range(-15f, 15f), 0.5f, Random.Range(-15f, 15f));
+                endPos.position = new Vector3(Random.Range(-10f, 10f), 0.5f, Random.Range(-10f, 10f));
                 currentLerpTime = 0f;
             }
         }
